@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0f2027" />
-    <meta name="description" content="Arush Karingala – PDK/CAD Engineer Portfolio" />
-    <title>Arush Karingala | PDK/CAD Engineer Portfolio</title>
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-_yB-6FE0.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C01DCduV.css">
-  </head>
-  <body class="bg-gradient-glass">
-    <div id="root"></div>
-  </body>
-</html> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Arush Karingala | Portfolio</title>
+  <!-- Links to the CSS file inside your existing assets folder -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- Liquid Glass Navigation -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <span class="brand">Arush Karingala</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Hero Profile Section -->
+    <header class="hero" id="about">
+      <!-- Uses your existing images folder -->
+      <img src="images/photo.jpg" alt="Arush Karingala" class="profile-pic" onerror="this.style.display='none';">
+      <h1>Arush Karingala</h1>
+      <p class="subtitle">Process Design Kit Engineer</p>
+      <p class="bio">Specializing in semiconductor physical design automation, electronic circuit layout verification, and cloud networking.</p>
+    </header>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">🏢</div>
+          <h3>Cadence Design Systems</h3>
+          <p class="role">Process Design Kit Engineer</p>
+          <p class="desc">Working on semiconductor physical design automation and electronic circuit layout verification.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Intel</h3>
+          <p class="role">Engineering Intern</p>
+          <p class="desc">Focused on Edge AI and advanced engineering concepts during an intensive internship.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <h2 class="section-title">Certifications & Skills</h2>
+      <div class="card-grid small-grid">
+        <div class="card skill-card">
+          <img src="images/aws.png" alt="AWS" onerror="this.style.display='none';">
+          <h3>AWS Certified</h3>
+          <p>Cloud Practitioner</p>
+        </div>
+        <div class="card skill-card">
+          <img src="images/cisco.png" alt="Cisco" onerror="this.style.display='none';">
+          <h3>Cisco</h3>
+          <p>Networking</p>
+        </div>
+        <div class="card skill-card">
+          <img src="images/coursera.png" alt="Coursera" onerror="this.style.display='none';">
+          <h3>Coursera</h3>
+          <p>Professional Certificate</p>
+        </div>
+        <div class="card skill-card">
+          <div class="card-icon">⚡</div>
+          <h3>Semiconductor</h3>
+          <p>Physical Design</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2026 Arush Karingala. Designed with Apple HIG standards.</p>
+  </footer>
+
+</body>
+</html>
